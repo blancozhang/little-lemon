@@ -15,9 +15,6 @@ const dishes = [
 const MenuItems = () =>{
     return(
         <>
-        <h2>
-            Special
-        </h2>
         <Box>
             {dishes.map((dish)=>(
                 <Card
