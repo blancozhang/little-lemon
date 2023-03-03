@@ -1,22 +1,21 @@
 import React from "react";
+import HeroImage from "../images/restauranfood.jpg";
 
 const HeroSection= () =>{
     return(
-        <>
-        <div>
+        <div className="hero">
+        <div >
             <h1>Little Lemon</h1>
             <h2>Chicago</h2>
             <p>
-                description:asdasdasddassssssssssssssssss
-                sadasdasdasdasd
-                asdasdasdas
+                We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
             </p>
             <button>Reserva a Table</button>
         </div>
-        <div>
-            <img></img>
+        
+            <img src={HeroImage}  className = "hero-img" />
+        
         </div>
-        </>
     );
 }
 

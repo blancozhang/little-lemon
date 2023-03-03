@@ -3,8 +3,9 @@ import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
 const dishes = [
     {
-        getImageSrc: () => require(""),
-        title:"",
+            getImageSrc: () => require("../images/greek_salad.jpg"),
+        title:"Greek salad",
+        price: "$12.99",
         description:"",
         orderLink:"",
     }

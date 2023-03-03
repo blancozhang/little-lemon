@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterNavigation = ()=>{
     return(
-        <>
+        <footer>
         <div>
             <img></img>
         </div>
@@ -43,7 +43,7 @@ const FooterNavigation = ()=>{
                 </ul>
             </nav>
         </div>
-        </>
+        </footer>
     );
 }
 

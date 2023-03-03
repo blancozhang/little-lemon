@@ -3,13 +3,13 @@ import MenuItems from "./MenuItems";
 
 const Hightlights = () =>{
     return (
-        <>
+        <div className="hightlights">
         <h2>
-            Specials
+            This weeks Specials !
         </h2>
         <button>ONLINE MENU</button>
-        <MenuItems/>
-        </>
+        {/* <MenuItems/> */}
+        </div>
     );
 }
 

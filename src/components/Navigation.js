@@ -1,11 +1,13 @@
 import React from "react";
+import logo from "../Little-Lemon-logos/Asset_16@4x.png";
 
 const Navigation = () =>{
     return(
-        <>
+        <header className="nav-top">
+        
         <nav>
             <ul >
-                <li><img></img> </li>
+                <li><img src={logo}  alt="little lemon logo" className="logo-top"/></li>
                 <li><a  href = "#HOME">HOME</a></li>
                 <li><a  href = "#ABOUT">ABOUT</a></li>
                 <li><a  href = "#MENU">MENU</a></li>
@@ -15,7 +17,7 @@ const Navigation = () =>{
                 <li><a  href = "#LOGIN">LOGIN</a></li>
             </ul>
         </nav>
-        </>
+        </header>
     );
 }
 
