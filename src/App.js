@@ -1,5 +1,4 @@
 
-import './App.css';
 import About from './components/About';
 import FooterNavigation from './components/FooterNavigation';
 import HeroSection from './components/HeroSection';
@@ -8,13 +7,13 @@ import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <div className='main'>
+    <>
       <Navigation/>
       <HeroSection/>
       <Hightlights/>
       <About/>
       <FooterNavigation/>
-    </div>
+    </>
   );
 }
 

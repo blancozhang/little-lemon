@@ -1,24 +1,16 @@
 import React from "react";
-import { Box, Heading } from "@chakra-ui/react";
-import Card from "./Card";
-const dishes = [
-    {
-            getImageSrc: () => require("../images/greek_salad.jpg"),
-        title:"Greek salad",
-        price: "$12.99",
-        description:"",
-        orderLink:"",
-    }
-]
+import { Box, HStack } from "@chakra-ui/react";
+import SpecialCard from "./SpecialCard";
+
 
 
 
 const MenuItems = () =>{
     return(
         <>
-        <Box>
+        <HStack >
             {dishes.map((dish)=>(
-                <Card
+                <SpecialCard
                 key = {dish.title}
                 titile = {dish.title}
                 description = {dish.description}
@@ -26,7 +18,7 @@ const MenuItems = () =>{
                 />
             ))
             }
-        </Box>
+        </HStack>
         </>
     );
 }

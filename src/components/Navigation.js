@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../Little-Lemon-logos/Asset_16@4x.png";
+import "../style/Navigation.css"
 
 const Navigation = () =>{
     return(
