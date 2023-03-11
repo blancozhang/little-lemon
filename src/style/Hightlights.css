@@ -1,0 +1,9 @@
+
+
+
+  .special-img{
+    width: 350px;
+    height: 400px;
+    border-radius: 16px 16px 0px 0px ;
+    object-fit: cover;
+  }

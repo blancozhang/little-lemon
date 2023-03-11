@@ -2,6 +2,7 @@ import React from "react";
 import FullScreenSection from "./FullScreenSection"; 
 import { Box, VStack, HStack,Image, Heading } from "@chakra-ui/react"; 
 import SpecialCard from "./SpecialCard";
+import "../style/Hightlights.css"
 
 
 const dishes = [
@@ -37,7 +38,7 @@ const Hightlights = () =>{
         isDarkBackground = {0}
         backgroundColor = "white"
         >
-            <HStack spacing='400px'>
+            <HStack spacing='600px'>
                 <Heading
                     as = 'h1'
                     size = '4xl'
@@ -47,7 +48,7 @@ const Hightlights = () =>{
                 <button>ONLINE MENU</button>
             </HStack>
 
-        <HStack
+        <HStack spacing = '40px'
         >
             {dishes.map((dish)=>(
                 <SpecialCard

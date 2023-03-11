@@ -10,10 +10,10 @@ const SpecialCard = ({ title, price, description, imageSrc, orderLink }) => {
     <VStack 
     color="black" 
     backgroundColor="#EDEFEE" 
-    borderRadius="xl" 
+    borderRadius="16px 16px 0px 0px" 
     width='350px'
   > 
-    <Image borderRadius="xl" src={imageSrc} alt={title} boxSize = "350px" /> 
+    <img src={imageSrc} alt={title} className = "special-img" /> 
       <HStack > 
         <Heading color= "black" > 
           {title} 
@@ -26,9 +26,9 @@ const SpecialCard = ({ title, price, description, imageSrc, orderLink }) => {
             { description  }
       </Box> 
 
-      <HStack spacing= '0'> 
-          <Text color = "black">Order a delivery</Text> 
-          <MdDeliveryDining size={30} style={{ color: "#333333",margin: "-250px",}} />
+      <HStack padding='20px' > 
+          <a href={orderLink}>Order a delivery</a>
+          <MdDeliveryDining size={30} style={{ color: "#333333",}} />
       </HStack> 
 
   </VStack> 

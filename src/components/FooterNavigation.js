@@ -1,16 +1,17 @@
 import React from "react";
+import "../style/FooterNavigation.css"
+import Logo2 from "../Little-Lemon-logos/Asset_20@4x.png";
 
 const FooterNavigation = ()=>{
     return(
         <footer>
         <div>
-            <img></img>
+            <img src={Logo2} alt='logo2' className="footer-logo" />
         </div>
-        <div>
+        <div className="footer-nav" >
             <h2>Doormat Navigation</h2>
             <nav>
                 <ul >
-                   <li><img></img> </li>
                     <li><a  href = "#HOME">HOME</a></li>
                     <li><a  href = "#ABOUT">ABOUT</a></li>
                     <li><a  href = "#MENU">MENU</a></li>
@@ -25,10 +26,9 @@ const FooterNavigation = ()=>{
             <h2>Contact</h2>
             <nav>
                 <ul >
-                   <li><img></img> </li>
-                    <li><a  href = "#address">address</a></li>
-                    <li><a  href = "#phone-number">phone number</a></li>
-                    <li><a  href = "#email">email</a></li>
+                    <li><a  href = "#address">ADDRESS</a></li>
+                    <li><a  href = "#phone-number">PHONE</a></li>
+                    <li><a  href = "#email">EMAIL</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,10 +36,9 @@ const FooterNavigation = ()=>{
             <h2>Social Media Links</h2>
             <nav>
                 <ul >
-                   <li><img></img> </li>
-                    <li><a  href = "#address">address</a></li>
-                    <li><a  href = "#phone-number">phone number</a></li>
-                    <li><a  href = "#email">email</a></li>
+                    <li><a  href = "#address">INSTAGRAM</a></li>
+                    <li><a  href = "#phone-number">FACEBOOK</a></li>
+                    <li><a  href = "#email">TIKTOK</a></li>
                 </ul>
             </nav>
         </div>
