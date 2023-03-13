@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../Little-Lemon-logos/Asset_16@4x.png";
+import { Link } from "react-router-dom";
 import "../style/Navigation.css"
 
 const Navigation = () =>{
@@ -9,13 +10,13 @@ const Navigation = () =>{
         <nav>
             <ul >
                 <li><img src={logo}  alt="little lemon logo" className="logo-top"/></li>
-                <li><a  href = "#HOME">HOME</a></li>
-                <li><a  href = "#ABOUT">ABOUT</a></li>
-                <li><a  href = "#MENU">MENU</a></li>
-                <li><a  href = "#RESERVATION">RESERVATION</a></li>
-                <li><a  href = "#OL-ORDER">ORDER ONLINE</a></li>
-                <li><a  href = "#LOCATION">LOCATION</a></li>
-                <li><a  href = "#LOGIN">LOGIN</a></li>
+                <li><Link  to = "/">HOME</Link></li>
+                <li><Link  to = "#ABOUT">ABOUT</Link></li>
+                <li><Link  to = "#MENU">MENU</Link></li>
+                <li><Link  to = "/bookingPage">RESERVATION</Link></li>
+                <li><Link  to = "#OL-ORDER">ORDER ONLINE</Link></li>
+                <li><Link  to = "#LOCATION">LOCATION</Link></li>
+                <li><Link  to = "#LOGIN">LOGIN</Link></li>
             </ul>
         </nav>
         </header>

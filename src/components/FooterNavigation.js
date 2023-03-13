@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/FooterNavigation.css"
 import Logo2 from "../Little-Lemon-logos/Asset_20@4x.png";
+import { Link } from "react-router-dom";
 
 const FooterNavigation = ()=>{
     return(
@@ -12,10 +13,10 @@ const FooterNavigation = ()=>{
             <h2>Doormat Navigation</h2>
             <nav>
                 <ul >
-                    <li><a  href = "#HOME">HOME</a></li>
+                    <li><Link  to = "/">HOME</Link></li>
                     <li><a  href = "#ABOUT">ABOUT</a></li>
                     <li><a  href = "#MENU">MENU</a></li>
-                    <li><a  href = "#RESERVATION">RESERVATION</a></li>
+                    <li><Link  to = "/bookingPage">RESERVATION</Link></li>
                     <li><a  href = "#OL-ORDER">ORDER ONLINE</a></li>
                     <li><a  href = "#LOCATION">LOCATION</a></li>
                     <li><a  href = "#LOGIN">LOGIN</a></li>

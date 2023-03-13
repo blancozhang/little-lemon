@@ -1,0 +1,33 @@
+.booking-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #495E57;
+    height: 90vh;
+
+}
+
+.form{
+    margin: 10px;
+    padding: 40px;
+    color: #333333;
+    font-weight: 750;
+    border: #f4ce14 solid 2px;
+    background-color: #edefee;
+}
+
+.booking-img{
+    height:74vh;
+    width: 30vw;
+    object-fit: cover;
+    margin: 0 100px 0px 100px;
+    border: #EE9972 solid 2px;
+
+}
+
+
+.submit{
+    background-color: #f4ce14;
+    border-radius: 16px;
+    padding: 10px;
+}

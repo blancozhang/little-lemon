@@ -42,3 +42,6 @@ html, body {
     width: 200px;
   }
   
+  a:hover {
+    color: #f4ce14;
+  }
