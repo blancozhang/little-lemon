@@ -2,8 +2,12 @@ import React from "react";
 import HeroImage from "../images/restauranfood.jpg";
 import FullScreenSection from "./FullScreenSection"; 
 import { Box, VStack, HStack,Image, Heading } from "@chakra-ui/react"; 
+import { useNavigate } from 'react-router-dom';
 import "../style/HeroSection.css"
 const HeroSection= () =>{
+
+    const navigate = useNavigate();
+
     return(
         <FullScreenSection
             justifyContent = "center"
@@ -25,7 +29,7 @@ const HeroSection= () =>{
                             <p>
                                 We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
                             </p>
-                            <button>Reserva a Table</button>
+                            <button onClick ={() => navigate('/bookingPage')} >Reserva a Table</button>
                         </Box>
                     </VStack>
                     <Image 
