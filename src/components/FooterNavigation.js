@@ -11,7 +11,6 @@ const FooterNavigation = ()=>{
         </div>
         <div className="footer-nav" >
             <h2>Doormat Navigation</h2>
-            <nav>
                 <ul >
                     <li><Link  to = "/">HOME</Link></li>
                     <li><a  href = "#ABOUT">ABOUT</a></li>
@@ -21,27 +20,22 @@ const FooterNavigation = ()=>{
                     <li><a  href = "#LOCATION">LOCATION</a></li>
                     <li><a  href = "#LOGIN">LOGIN</a></li>
                 </ul>
-            </nav>
         </div>
         <div className="contact">
             <h2>Contact</h2>
-            <nav>
                 <ul >
                     <li><a  href = "#address">ADDRESS</a></li>
                     <li><a  href = "#phone-number">PHONE</a></li>
                     <li><a  href = "#email">EMAIL</a></li>
                 </ul>
-            </nav>
         </div>
         <div className="social-media">
             <h2>Social Media Links</h2>
-            <nav>
                 <ul >
                     <li><a  href = "#address">INSTAGRAM</a></li>
                     <li><a  href = "#phone-number">FACEBOOK</a></li>
                     <li><a  href = "#email">TIKTOK</a></li>
                 </ul>
-            </nav>
         </div>
         </footer>
     );
